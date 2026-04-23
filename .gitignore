@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# Generated runtime files (don't commit)
+keys/users.db
+keys/*.pem
+chat_logs/
+received_files/
+
+# Keep folder structure
+!keys/.gitkeep
+!chat_logs/.gitkeep
+!received_files/.gitkeep
